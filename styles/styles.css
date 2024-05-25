@@ -81,6 +81,7 @@ nav{
     margin: 0 auto;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 68px;
 }
 banner{
@@ -120,5 +121,54 @@ banner{
 .banner-photo img{
     width: 100%;
     height: auto;
+}
+
+/* Gamer section styles */
+.gamer-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 120px;
+}
+.gamer-photo{
+    width: 55%;
+    border: 2px solid red;
+}
+.gamer-photo img{
+    width: 100%;
+    height: auto;
+}
+.gamer-content{
+    width: 45%;
+    text-align: end;
+    border: 2px solid red; 
+}
+.gamer-content h3{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom:32px;
+    margin-top: 0;
+}
+.gamer-content p{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.gamer-p-2{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+.gamer-content h4{
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
