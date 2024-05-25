@@ -1,5 +1,5 @@
 /* Responsive for tablet or medium devices */
-@media screen and (min-width:576px) and (max-width:960px) {
+@media screen and (min-width:576px) and (max-width:960px){
     .nav-container, 
     .gamer-container{
         flex-direction: column;
@@ -16,6 +16,9 @@
         flex-direction: column-reverse;
         margin-top: 78px;
     }
+    .gamer-container{
+        margin-bottom: 50px;
+    }
     .banner-content, 
     .banner-photo, 
     .gamer-content{
@@ -31,10 +34,21 @@
     .gamer-content{
         text-align: center;
     }
+    .card-container{
+       grid-template-columns: repeat(2,1fr);
+       gap: 0; 
+    }
+    .online-game-container p{
+        font-size: 12px;
+        text-align: center;
+    }
+    .card-container{
+        gap: 20px;
+    }
 }
 
 /* Responsive for mobile devices */
-@media screen and (max-width:576px) {
+@media screen and (max-width:576px){
     .nav-container, 
     .nav-content, 
     .gamer-container{
@@ -73,6 +87,9 @@
     .banner-photo{
         width: 80%;
     }
+    .gamer-container{
+        margin-bottom: 50px;
+    }
     .gamer-photo{
         width: 100%;
         margin-top: 30px;
@@ -103,5 +120,14 @@
         margin-bottom: 5px;
         
     }
-
+    .card-container{
+        grid-template-columns: 1fr
+    }
+    .online-game-container h3{
+        font-size: 24px;
+    }
+    .online-game-container p{
+        font-size: 12px;
+        text-align: center;
+    }
 }
