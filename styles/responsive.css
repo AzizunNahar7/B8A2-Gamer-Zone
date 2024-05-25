@@ -11,6 +11,18 @@
     .nav-content{
         gap: 50px;
     }
+    .banner-container{
+        flex-direction: column-reverse;
+        margin-top: 78px;
+    }
+    .banner-content, 
+    .banner-photo{
+        width: 80%;
+    }
+    .banner-content{
+        text-align: center;
+        padding: 0;
+    }
 }
 
 /* Responsive for mobile devices */
@@ -27,4 +39,27 @@
     .nav-content{
         gap: 30px;
     }
+    .banner-container{
+        flex-direction: column-reverse;
+        margin-top: 178px;
+        gap: 30px;
+    }
+    .banner-content{
+        width: 100%;
+        padding: 0 20px;
+        text-align: center;
+    }
+    .banner-content h2{
+        font-size: 28px;
+    }
+    .banner-content h1{
+        font-size: 60px;
+    }
+    .primary-btn{
+        padding: 15px 20px;
+    }
+    .banner-photo{
+        width: 80%;
+    }
+
 }
