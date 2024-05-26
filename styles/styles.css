@@ -135,6 +135,7 @@ banner{
     justify-content: space-between;
     gap: 24px;
     margin-bottom: 120px;
+    padding: 50px 0;
 }
 .gamer-photo{
     width: 55%;
@@ -291,6 +292,59 @@ banner{
 }
 .photo-2-2{
     width: 50%;
+}
+
+/* Career section styles */
+.career-section{
+    background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+}
+.career-container{
+    max-width: 1300px;
+    margin: 0 auto 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px;
+}
+.career-content{
+    width: 50%;
+}
+.career-content h3{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+}
+.career-content p{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+.career-content-pera{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+.career-content-pera li{
+    list-style: none;
+}
+.career-content-pera .pera-2{
+    text-align: end;
+}
+.career-btn{
+    color:#FF42A5;
+    background: #FFF;
+    text-transform: uppercase;
+}
+.career-photo{
+    width: 50%; 
+}
+.career-photo img{
+    width: 100%;
+    height: auto;
 }
 
 
