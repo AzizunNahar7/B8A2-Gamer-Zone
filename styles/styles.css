@@ -271,4 +271,27 @@ banner{
     width: 50%;
 }
 
+/* Play games section styles */
+.play-games-content{
+    text-align: start;
+    width: 40%;
+}
+.play-games-photos{
+    width: 45%;
+    height: auto;
+    position: relative;
+}
+.play-games-photos .photo-1-1{
+    width: 100%;
+}
+.play-games-photos .photo-2-2{
+    position: absolute;
+    left: 70%;
+    top: 55%;
+}
+.photo-2-2{
+    width: 50%;
+}
+
+
 

@@ -56,11 +56,19 @@
         width: 80%;
         text-align: center;
     }
-    .play-instantly-photos{
+    .play-instantly-photos, 
+    .play-games-photos{
         width: 60%;
     }
-    .photo-2{
+    .photo-2, 
+    .photo-2-2{
         width: 50%;
+    }
+    .play-games-container{
+        flex-direction: column-reverse;
+        gap: 40px;
+        margin-top: 90px;
+        margin-bottom: 30px;
     }
 }
 
@@ -158,16 +166,26 @@
         width: 80%;
         text-align: center;
     }
-    .play-instantly-content h3{
+    .play-instantly-content h3, 
+    .play-games-content-h3{
         font-size: 28px;
     }
-    .play-instantly-content p{
+    .play-instantly-content p, 
+    .play-games-content-p{
         font-size: 16px;
     }
-    .play-instantly-photos{
+    .play-instantly-photos, 
+    .play-games-photos{
         width: 60%;
     }
-    .photo-2{
+    .photo-2, .photo-2-2{
         width: 50%;
+    }
+
+    .play-games-container{
+        flex-direction: column-reverse;
+        gap: 40px;
+        margin-top: 70px;
+        margin-bottom: 30px;
     }
 }
