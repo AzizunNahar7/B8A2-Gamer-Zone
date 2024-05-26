@@ -89,7 +89,17 @@
         padding: 15px 25px;
         margin-bottom: 5px;
         margin-top: 10px;
-    }  
+    }
+    .varies-games-container{
+        padding: 0;
+    }
+    
+    footer{
+        padding:20px 0 50px ;
+    }
+    .footer-container{
+        width: 100%;
+    }
 }
 
 /* Responsive for mobile devices */
@@ -234,6 +244,28 @@
 
     .varies-games-container{
         justify-content: flex-start;
-        
+        padding: 0;
+    }
+
+    footer{
+        padding:20px 0 50px ;
+    }
+    .footer-container{
+        width: 100%;
+    }
+    .footer-pera{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .footer-icons{
+        padding: 0 20px;
+    }
+
+    .footer-small-p{
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .small-pera-2{
+        text-align: center;
     }
 }
